@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap-steps/scss/bootstrap-steps';
+
+@import "fonts";
+@import "variables";
+@import "nav";
+
+@import "slick-custom";
+
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004) !important;
+    background: $background-color;
+    color: $grey;
+    overflow-x: hidden;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $poppins;
+    font-weight: $font-weight-semibold;
+    color: $white;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: $poppins;
+    font-weight: $font-weight-regular;
+    color: $grey;
+    line-height: 1.8;
+}
+
